@@ -5,3 +5,24 @@
 .fa-bell{
     color: orange;
 }
+
+.my_side_style{
+    max-width: 70px;
+    height: calc(100vh - 70px);
+    margin-top: 70px;
+    background-color: #051E34;
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+}
+
+.fa-signal{
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 992px){
+    
+    .my_side_style{
+        max-width: 150px;
+    }
+}
+    
