@@ -41,24 +41,58 @@
         </div>
     </nav>
 
-    <!-- SIDEBAR -->
-    <div class="d-flex flex-column flex-shrink-0 justify-content-between align-items-center align-items-lg-start px-2 py-2 my_side_style">
-        <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link text-white" aria-current="page" href="#"><i class="fa-solid fa-house me-2"></i><span class="d-none d-lg-inline-block">Home</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#"><i class="fa-solid fa-chart-simple me-3"></i><span class="d-none d-lg-inline-block">Stats</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#"><i class="fa-solid fa-signal me-2"></i><span class="d-none d-lg-inline-block">Signals</span></a>
-            </li>
-        </ul>
-        <ul class="nav">
-            <li class="nav-item w-100">
-                <a class="nav-link text-white" href="#"><i class="fa-solid fa-gear me-2"></i><span class="d-none d-lg-inline-block">Admin</span></a>
-            </li>
-        </ul>
+    <div class="container-fluid">
+
+        <div class="row">
+            <!-- SIDEBAR -->
+            <aside class="d-flex flex-column flex-shrink-0 justify-content-between align-items-center align-items-lg-start px-2 py-2 my_side_style">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link text-white" aria-current="page" href="#"><i class="fa-solid fa-house me-2"></i><span class="d-none d-lg-inline-block">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#"><i class="fa-solid fa-chart-simple me-3"></i><span class="d-none d-lg-inline-block">Stats</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#"><i class="fa-solid fa-signal me-2"></i><span class="d-none d-lg-inline-block">Signals</span></a>
+                    </li>
+                </ul>
+                <ul class="nav">
+                    <li class="nav-item w-100">
+                        <a class="nav-link text-white" href="#"><i class="fa-solid fa-gear me-2"></i><span class="d-none d-lg-inline-block">Admin</span></a>
+                    </li>
+                </ul>
+            </aside>
+
+            <!-- MAIN -->
+            <main class="col my_main_style">
+
+                <!-- BOOLEAN BLU -->
+                <div class="row bg-primary text-white py-3">
+                    <div class="col-lg-6">
+                        <h1>Boolean</h1>
+                    </div>
+                    <div class="col-lg-3">
+                        <p class="m-0">Studenti online negli ultimi 30 minuti</p>
+                        <div class="fs-2">125</div>
+                    </div>
+                    <div class="col-lg-3">
+                        <span class="me-2">Nuovo Studente</span>
+                        <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="row py-3">
+                    <div class="col-lg-8">PROSSIME CLASSI</div>
+                    <div class="col-lg-4">TODO</div>
+                </div>
+
+
+
+            </main>
+
+        </div>
+        
     </div>
 
 
