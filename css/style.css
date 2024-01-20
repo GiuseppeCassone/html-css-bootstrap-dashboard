@@ -25,6 +25,22 @@
     margin-top: 70px;
 }
 
+
+.my_tab_center{
+    text-align: center;
+}
+
+.my_fs{
+    font-size: 10px;
+}
+
+.fa-code{
+    padding: 10px 8px;
+    background-color: #F86756;
+}
+
+
+
 @media screen and (min-width: 992px){
     
     .my_side_style{

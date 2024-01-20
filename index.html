@@ -65,10 +65,11 @@
             </aside>
 
             <!-- MAIN -->
-            <main class="col my_main_style">
+            <main class="col my_main_style overflow-y-auto">
 
                 <!-- BOOLEAN BLU -->
                 <div class="row bg-primary text-white py-3">
+
                     <div class="col-lg-6">
                         <h1>Boolean</h1>
                     </div>
@@ -80,11 +81,117 @@
                         <span class="me-2">Nuovo Studente</span>
                         <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-plus"></i></button>
                     </div>
+
                 </div>
 
                 <div class="row py-3">
-                    <div class="col-lg-8">PROSSIME CLASSI</div>
+
+                    <div class="col-lg-8">
+                      <div class="card">
+                        <div class="card-header fs-2">
+                          Prossime Classi
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th scope="col" style="width: 50%;">Nome</th>
+                                  <th scope="col" class="my_tab_center d-none d-md-table-cell">Data inizio</th>
+                                  <th scope="col" class="my_tab_center d-none d-md-table-cell">ROI</th>
+                                  <th scope="col" class="my_tab_center">Stato</th>
+                                  <th scope="col" class="my_tab_center">Azioni</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td class="align-middle"><i class="fa-solid fa-code me-2 rounded-circle text-white"></i>Classe 75</td>
+                                  <td class="my_tab_center d-none d-md-table-cell pb-4">15 Feb 2021</td>
+                                  <td class="my_tab_center d-none d-md-table-cell pb-4">20%</td>
+                                  <td class="my_tab_center"><button type="button" class="btn btn-success py-1 my_fs">Done</button></td>
+                                  <td class="my_tab_center">
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="align-middle"><i class="fa-solid fa-code me-2 rounded-circle text-white"></i>Classe 76</td>
+                                  <td class="my_tab_center d-none d-md-table-cell pb-4">16 Feb 2021</td>
+                                  <td class="my_tab_center d-none d-md-table-cell pb-4">20%</td>
+                                  <td class="my_tab_center"><button type="button" class="btn btn-success py-1 my_fs">Done</button></td>
+                                  <td class="my_tab_center">
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="align-middle"><i class="fa-solid fa-code me-2 rounded-circle text-white"></i>Classe 77</td>
+                                  <td class="my_tab_center d-none d-md-table-cell pb-4">17 Feb 2021</td>
+                                  <td class="my_tab_center d-none d-md-table-cell pb-4">20%</td>
+                                  <td class="my_tab_center"><button type="button" class="btn btn-warning text-white py-1 my_fs">process</button></td>
+                                  <td class="my_tab_center">
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="align-middle"><i class="fa-solid fa-code me-2 rounded-circle text-white"></i>Classe 78</td>
+                                  <td class="my_tab_center d-none d-md-table-cell pb-4">18 Feb 2021</td>
+                                  <td class="my_tab_center d-none d-md-table-cell pb-4">20%</td>
+                                  <td class="my_tab_center"><button type="button" class="btn btn-success py-1 my_fs">Done</button></td>
+                                  <td class="my_tab_center">
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="align-middle"><i class="fa-solid fa-code me-2 rounded-circle text-white"></i>Classe 79</td>
+                                  <td class="my_tab_center d-none d-md-table-cell pb-4">19 Feb 2021</td>
+                                  <td class="my_tab_center d-none d-md-table-cell pb-4">20%</td>
+                                  <td class="my_tab_center"><button type="button" class="btn btn-danger py-1 my_fs">failed</button></td>
+                                  <td class="my_tab_center">
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="align-middle"><i class="fa-solid fa-code me-2 rounded-circle text-white"></i>Classe 80</td>
+                                  <td class="my_tab_center d-none d-md-table-cell pb-4">20 Feb 2021</td>
+                                  <td class="my_tab_center d-none d-md-table-cell pb-4">20%</td>
+                                  <td class="my_tab_center"><button type="button" class="btn btn-success py-1 my_fs">Done</button></td>
+                                  <td class="my_tab_center">
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="align-middle"><i class="fa-solid fa-code me-2 rounded-circle text-white"></i>Classe 81</td>
+                                  <td class="my_tab_center d-none d-md-table-cell pb-4">21 Feb 2021</td>
+                                  <td class="my_tab_center d-none d-md-table-cell pb-4">20%</td>
+                                  <td class="my_tab_center"><button type="button" class="btn btn-danger py-1 my_fs">failed</button></td>
+                                  <td class="my_tab_center">
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="align-middle"><i class="fa-solid fa-code me-2 rounded-circle text-white"></i>Classe 82</td>
+                                  <td class="my_tab_center d-none d-md-table-cell pb-4">22 Feb 2021</td>
+                                  <td class="my_tab_center d-none d-md-table-cell pb-4">20%</td>
+                                  <td class="my_tab_center"><button type="button" class="btn btn-success py-1 my_fs">Done</button></td>
+                                  <td class="my_tab_center">
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                     <div class="col-lg-4">TODO</div>
+
                 </div>
 
 
