@@ -24,7 +24,7 @@
               <input type="search" class="form-control my_navsearch_bg border-0 m-0 px-0" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search" aria-describedby="basic-addon1">
             </div>
           </form> 
-          <ul class="navbar-nav">
+          <ul class="navbar-nav align-items-center">
             <li class="nav-item d-none d-lg-inline-block">
               <a class="nav-link" href="#"><i class="fa-solid fa-list-ul"></i></a>
             </li>
@@ -35,7 +35,16 @@
               <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"><i class="fa-solid fa-bell"></i></a>
+              <a class="nav-link dropdown">
+                <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-bell"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><button class="dropdown-item" type="button">Profilo</button></li>
+                  <li><button class="dropdown-item" type="button">Fatturazione</button></li>
+                  <li><button class="dropdown-item" type="button">Logout</button></li>
+                </ul>
+              </a>
             </li>
           </ul>
         </div>
