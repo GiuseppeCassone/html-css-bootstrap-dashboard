@@ -19,6 +19,10 @@
     font-size: 0.9rem;
 }
 
+aside a:hover{
+    background-color: grey;
+}
+
 .my_main_style{
     max-width: calc(100% - 70px);
     height: calc(100vh - 70px);
