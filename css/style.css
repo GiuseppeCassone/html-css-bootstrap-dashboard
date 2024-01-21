@@ -57,5 +57,10 @@ tr:hover td{
     .my_main_style{
         max-width: calc(100% - 150px);
     }
+
+    .modal-dialog{
+        width: 50%;
+    }
 }
+
     

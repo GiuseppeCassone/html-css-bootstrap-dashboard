@@ -99,9 +99,84 @@
                         <p class="m-0">Studenti online negli ultimi 30 minuti</p>
                         <div class="fs-2">125</div>
                     </div>
+
+                    <!-- SEZIONE CON MODALE -->
                     <div class="col-lg-3 order-1 order-md-3 mb-3">
                         <span class="me-2">Nuovo Studente</span>
-                        <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-plus"></i></button>
+                        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"  data-bs-target="#exampleModal"><i class="fa-solid fa-plus"></i></button>
+                        <div class="modal fade text-black rounded-0" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-fullscreen position-absolute top-0 end-0 m-0">
+                            <div class="modal-content">
+                              <div class="modal-header border-0 ">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Inserisci un nuovo studente</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="container-fluid">
+                                  <form class="row g-3">
+                                    <div class="col-md-6">
+                                      <label for="inputName" class="form-label">Nome</label>
+                                      <input type="name" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-md-6">
+                                      <label for="inputName" class="form-label">Cognome</label>
+                                      <input type="name" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-md-6">
+                                      <label for="inputEmail4" class="form-label">Email</label>
+                                      <div class="input-group mb-3">
+                                        <span class="input-group-text bg-secondary-subtle" id="basic-addon1">@</span>
+                                        <input type="email" class="form-control" aria-describedby="basic-addon1">
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <label for="inputPassword4" class="form-label">Password</label>
+                                      <input type="password" class="form-control" id="inputPassword4">
+                                    </div>
+                                    <div class="col-12">
+                                      <label for="inputAddress" class="form-label">Indirizzo</label>
+                                      <input type="text" class="form-control" id="inputAddress">
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                      <label for="inputCity" class="form-label">Città</label>
+                                      <input type="text" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="col-md-4">
+                                      <label for="inputState" class="form-label">Stato</label>
+                                      <select id="inputState" class="form-select">
+                                        <option selected>Scegli...</option>
+                                        <option>Italia</option>
+                                      </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                      <label for="inputZip" class="form-label">CAP</label>
+                                      <input type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="col-12">
+                                      <label class="input mb-2" for="inputGroupFile02">Foto</label>
+                                      <div class="input-group mb-3">
+                                        <input type="file" class="form-control" id="inputGroupFile02">
+                                      </div>
+                                    </div>
+                                    <div class="col-12">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                          Seleziona per proseguire
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-12">
+                                      <button type="submit" class="btn btn-primary">Salva</button>
+                                      <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Svuota</button>
+                                    </div>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                     </div>
 
                 </div>
