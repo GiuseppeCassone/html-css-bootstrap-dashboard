@@ -1,3 +1,4 @@
+/* NAVBAR */
 .my_navsearch_bg{
     background-color: #e5e5e5c8;
 }
@@ -6,6 +7,7 @@
     color: orange;
 }
 
+/* SIDEBAR */
 .my_side_style{
     max-width: 70px;
     height: calc(100vh - 70px);
@@ -22,6 +24,7 @@ aside a:hover{
     background-color: grey;
 }
 
+/* MAIN */
 .my_main_style{
     max-width: calc(100% - 70px);
     height: calc(100vh - 70px);
