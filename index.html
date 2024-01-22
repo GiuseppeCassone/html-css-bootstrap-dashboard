@@ -54,7 +54,7 @@
 
         <div class="row">
             <!-- SIDEBAR -->
-            <aside class="d-flex flex-column flex-shrink-0 justify-content-between align-items-center align-items-lg-start px-2 py-2 my_side_style">
+            <aside class="d-flex flex-column flex-shrink-0 justify-content-between align-items-center px-2 py-2 my_side_style">
                 <ul class="nav flex-column">
                     <li class="nav-item">
                       <a class="nav-link text-white" aria-current="page" href="#"><i class="fa-solid fa-house me-2"></i><span class="d-none d-lg-inline-block">Home</span></a>
@@ -100,18 +100,17 @@
                         <div class="fs-2">125</div>
                     </div>
 
-                    <!-- SEZIONE CON MODALE -->
+                    <!-- SEZIONE CON OFFCANVAS -->
                     <div class="col-md-3 order-1 order-md-3 mb-3">
                         <span class="me-2">Nuovo Studente</span>
-                        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"  data-bs-target="#exampleModal"><i class="fa-solid fa-plus"></i></button>
-                        <div class="modal fade text-black rounded-0" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                          <div class="modal-dialog modal-fullscreen position-absolute top-0 end-0 m-0">
-                            <div class="modal-content">
-                              <div class="modal-header border-0 ">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Inserisci un nuovo studente</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                              </div>
-                              <div class="modal-body">
+                        <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                        <div class="offcanvas offcanvas-end border-0" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
+                          <div class="offcanvas-header">
+                                <h1 class="offcanvas-title fs-5" id="offcanvasRightLabel">Inserisci un nuovo studente</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                          <div class="offcanvas-body">
                                 <div class="container-fluid">
                                   <form class="row g-3">
                                     <div class="col-md-6">
@@ -179,9 +178,8 @@
                                     </div>
                                   </form>
                                 </div>
-                              </div>
-                            </div>
                           </div>
+
                         </div>
                     </div>
 

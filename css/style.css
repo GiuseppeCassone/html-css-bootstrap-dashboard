@@ -49,17 +49,21 @@ tr:hover td{
     height: 40px;
 }
 
+.offcanvas.offcanvas-end{
+    width: 100%;
+}
+
 @media screen and (min-width: 992px){
     
     .my_side_style{
         max-width: 150px;
     }
-
+    
     .my_main_style{
         max-width: calc(100% - 150px);
     }
-
-    .modal-dialog{
+    
+    .offcanvas.offcanvas-end{
         width: 50%;
     }
 }
